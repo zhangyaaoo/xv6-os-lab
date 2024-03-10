@@ -32,19 +32,11 @@ MIT 6.s081 OS Labs
 
 如果自己安装工具链， 过程参考[6.S081/2021/tools](https://pdos.csail.mit.edu/6.S081/2021/tools.html)、[汪辰老师的博客](https://gitee.com/aosp-riscv/working-group/blob/master/articles/20220721-riscv-gcc.md)或者[这个博客](https://zhuanlan.zhihu.com/p/72862396)。
 
-
-
 **环境测试：**
 
 在工程主目录下，执行`make qemu`开始编译代码，并开始运行qemu，进入xv6的命令行。`Ctrl A+X`可退出xv6的命令行。
 
-`make qemu-gdb`，并在另一个窗口（也需要在工程主目录下），执行`riscv64-unknown-elf-gdb`，可使用GDB调试xv6的代码。工程主目录下，有`.gdbinit`的文件，启动GDB时，会自动执行该脚本中的命令，比如加载被调试的文件的命令。
-
-
-
-
-
-
+`make qemu-gdb`，并在另一个窗口（也需要在工程主目录下），执行`riscv64-unknown-elf-gdb`，可使用GDB调试xv6的代码。工程主目录下，有`.gdbinit`的文件，启动GDB时，会自动执行该脚本中的命令，比如加载被调试文件的命令。
 
 # labs: Xv6 and Unix utilities
 
@@ -54,4 +46,4 @@ MIT 6.s081 OS Labs
 
 **xv6源码**: https://github.com/mit-pdos/xv6-riscv
 
-**xv6实验源码**: git clone git://g.csail.mit.edu/xv6-labs-2021
+**xv6实验源码**: `git clone git://g.csail.mit.edu/xv6-labs-2021`
