@@ -1,0 +1,8 @@
+{
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "trashOption": "system",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "00-imgs",
+  "newLinkFormat": "absolute"
+}
