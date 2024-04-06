@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"ec97c784d5ffd087","type":"text","text":"```c\nvoid ls(char *path)\n{\n\tchar buf[512], *p;\n\tint fd;\n\tstruct dirent de;\n\tstruct stat st;\n\n\tif((fd = open(path, 0)) < 0){ // open 系统调用\n\t\tfprintf(2, \"ls: cannot open %s\\n\", path);\n\t\treturn;\n\t}\n\t:\n```\n对应的反汇编如下，第一个参数放在 a0 中，第二个参数放在 a1 中：\n```asm\nvoid ls(char *path)\n{\n  be:\td9010113          \taddi\tsp,sp,-624\n  c2:\t26113423          \tsd\tra,616(sp)\n  c6:\t26813023          \tsd\ts0,608(sp)\n  ca:\t24913c23          \tsd\ts1,600(sp)\n  ce:\t25213823          \tsd\ts2,592(sp)\n  d2:\t25313423          \tsd\ts3,584(sp)\n  d6:\t25413023          \tsd\ts4,576(sp)\n  da:\t23513c23          \tsd\ts5,568(sp)\n  de:\t1c80                addi\ts0,sp,624\n  e0:\t892a                mv\ts2,a0\n  char buf[512], *p;\n  int fd;\n  struct dirent de;\n  struct stat st;\n\n  if((fd = open(path, 0)) < 0){\n  e2:\t4581                li\ta1,0\n  e4:\t00000097          \tauipc\tra,0x0\n  e8:\t4e6080e7          \tjalr\t1254(ra) # 5ca <open>\n  ec:\t08054163          \tbltz\ta0,16e <ls+0xb0>\n  f0:\t84aa                mv\ts1,a0\n    fprintf(2, \"ls: cannot open %s\\n\", path);\n    return;\n  }\n```","x":-680,"y":-400,"width":699,"height":940,"color":"5"},
+		{"id":"2d2257c693e1279f","type":"text","text":"```asm\n00000000000005ca <open>:\n.global open\nopen:\n li a7, SYS_open\n 5ca:\t48bd                li\ta7,15\n ecall\n 5cc:\t00000073          ecall\n ret\n 5d0:\t8082                ret\n```\nopen 系统调用号放在 a7 中，然后执行 ecall","x":140,"y":-85,"width":560,"height":310,"color":"5"},
+		{"id":"0bebd4ffe88a90f5","x":-10,"y":700,"width":860,"height":300,"color":"1","type":"text","text":"ecall 指令触发异常，CPU 硬件自动执行如下的操作：\n1. If the trap is a device interrupt, and the sstatus SIE bit is clear, don’t do any of the following.\n2. Disable interrupts by clearing the SIE bit in sstatus.\n3. Copy the pc to sepc.\n4. Save the current mode (user or supervisor) in the SPP bit in sstatus.\n5. Set scause to reflect the trap’s cause.\n6. Set the mode to supervisor.\n7. Copy stvec to the pc.\n8. Start executing at the new pc."},
+		{"id":"ca0cbbd7bada62b0","x":-700,"y":1160,"width":862,"height":1820,"color":"3","type":"file","file":"00-imgs/Pasted image 20240406174808.png"}
+	],
+	"edges":[
+		{"id":"a703648a9e0663cc","fromNode":"ec97c784d5ffd087","fromSide":"right","toNode":"2d2257c693e1279f","toSide":"left"},
+		{"id":"68b74dd2ec439298","fromNode":"2d2257c693e1279f","fromSide":"bottom","toNode":"0bebd4ffe88a90f5","toSide":"top"},
+		{"id":"64beb74afd2412bd","fromNode":"0bebd4ffe88a90f5","fromSide":"bottom","toNode":"ca0cbbd7bada62b0","toSide":"top"}
+	]
+}
