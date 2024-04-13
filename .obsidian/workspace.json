@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "3a6871873dc02d3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9f800171867c1a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e0fe9f2f7c51d8b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "xv6-ob-note/02-riscv/riscv-privileged-notes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72c6d8c3e50a6b3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3308dc636cb1b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07646530d37246ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b760010276104d22",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "02347dbd632f1983",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "aae2f4b4c1739adb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285.5026054382324,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e3a06f4cfa3f02c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b1f5299bbcf82f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51555c33aec6fcc8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "312db1cf7a68befd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "229fe24a2f4cc278",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6b6daee5c02c7d05",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "xv6-ob-note/02-riscv/riscv-privileged-notes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "8e0fe9f2f7c51d8b",
+  "lastOpenFiles": [
+    "xv6-ob-note/01-docs/riscv-privileged-20211203.pdf",
+    "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
+    "xv6-ob-note/01-docs/riscv-spec-20191213.pdf",
+    "xv6-ob-note/02-riscv/10-riscv-instructions.md",
+    "xv6-ob-note/02-riscv/calling-convention.md",
+    "xv6-ob-note/系统调用的过程.canvas",
+    "xv6-ob-note/00-imgs/syscall-handle.png",
+    "xv6-ob-note/00-imgs/ls-cc.png",
+    "xv6-ob-note/00-imgs/Pasted image 20240406174808.png",
+    "README.md"
+  ]
+}
