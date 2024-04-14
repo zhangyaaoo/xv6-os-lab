@@ -2,7 +2,7 @@
 
 > A driver is the code in an operating system that manages a particular device: it configures the device hardware, tells the device to perform operations, handles the resulting interrupts, and interacts with processes that may be waiting for I/O from the device. Driver code can be tricky because a driver executes concurrently with the device that it manages. In addition, the driver must understand the device’s hardware interface, which can be complex and poorly documented.
 
-驱动程序是操作系统中管理特定设备的代码：它配置设备硬件，告诉设备执行操作，处理结果中断，并与可能等待设备 I/O 的进程交互。驱动程序代码可能很复杂，因为驱动程序与其管理的设备并发执行。此外，驱动程序必须理解设备的硬件接口，这可能很复杂且文档不全。
+驱动程序是操作系统中管理特定设备的代码：它配置设备硬件，让设备执行某些操作，处理结果中断，并与可能等待设备 I/O 的进程交互。驱动程序代码可能很复杂，因为驱动程序与其管理的设备并发执行。此外，驱动程序必须理解设备的硬件接口，这可能很复杂且设备的文档不全。
 
 > Devices that need attention from the operating system can usually be configured to generate interrupts, which are one type of trap. The kernel trap handling code recognizes when a device has raised an interrupt and calls the driver’s interrupt handler; in xv6, this dispatch happens in devintr ([kernel/trap.c:178](https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/trap.c#L178)).
 
