@@ -11,13 +11,26 @@
             "id": "8e0fe9f2f7c51d8b",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b552e6a27ab0d503",
+            "type": "leaf",
+            "state": {
               "type": "pdf-annotator",
               "state": {
                 "file": "xv6-ob-note/02-riscv/riscv-privileged-notes.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -46,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TRAP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,17 +166,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e0fe9f2f7c51d8b",
+  "active": "b552e6a27ab0d503",
   "lastOpenFiles": [
-    "xv6-ob-note/01-docs/riscv-privileged-20211203.pdf",
+    "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
     "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
+    "xv6-ob-note/00-readme.md",
+    "README.md",
+    "xv6-ob-note/01-docs/riscv-privileged-20211203.pdf",
     "xv6-ob-note/01-docs/riscv-spec-20191213.pdf",
     "xv6-ob-note/02-riscv/10-riscv-instructions.md",
     "xv6-ob-note/02-riscv/calling-convention.md",
     "xv6-ob-note/系统调用的过程.canvas",
     "xv6-ob-note/00-imgs/syscall-handle.png",
     "xv6-ob-note/00-imgs/ls-cc.png",
-    "xv6-ob-note/00-imgs/Pasted image 20240406174808.png",
-    "README.md"
+    "xv6-ob-note/00-imgs/Pasted image 20240406174808.png"
   ]
 }
