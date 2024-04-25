@@ -4,7 +4,7 @@ MIT 6.s081 OS Labs
 
 视频教程：[MIT 公开课 MIT6.S081精译](https://www.bilibili.com/video/BV1rS4y1n7y1/?spm_id_from=333.999.0.0&vd_source=5fc9d3a9044a95a2e4960e3b99616e6e)
 
-视频教程的文字版：[GitHub - huihongxiao/MIT6.S081](https://github.com/huihongxiao/MIT6.S081)
+视频教程的文字版：[GitHub - huihongxiao/MIT6.S081](https://github.com/huihongxiao/MIT6.S081) [网页阅读](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081)
 
 中文资料: [CS自学指南-6.S081](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/)
 
@@ -17,6 +17,8 @@ MIT 6.s081 OS Labs
 [fanxiao's blog](https://fanxiao.tech/)
 
 [操作系统2023秋](http://hitsz-cslab.gitee.io/os-labs/)
+
+好的RISCV的资料网站: [five-embeddev](https://five-embeddev.com/)
 
 # 环境搭建
 
