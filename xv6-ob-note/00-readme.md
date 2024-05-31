@@ -2,7 +2,7 @@ MIT 6.s081 OS Labs
 
 官方课程资源：[6.S081/2023/schedule](https://pdos.csail.mit.edu/6.S081/2023/schedule.html)
 
-视频教程：[MIT 公开课 MIT6.S081精译](https://www.bilibili.com/video/BV1rS4y1n7y1/?spm_id_from=333.999.0.0&vd_source=5fc9d3a9044a95a2e4960e3b99616e6e)
+视频教程：[MIT 公开课 MIT6.S081精译](https://www.mcatin.com/course/20?nav=2)
 
 视频教程的文字版：[GitHub - huihongxiao/MIT6.S081](https://github.com/huihongxiao/MIT6.S081) [网页阅读](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081)
 

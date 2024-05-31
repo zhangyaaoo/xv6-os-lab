@@ -42,3 +42,17 @@ start.c 中的代码运行在 M-mode 下，在 main 之前，配置定时器中�
 > The machine-mode timer interrupt handler is timervec ([kernel/kernelvec.S:95](https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/kernelvec.S#L95)). It saves a few registers in the scratch area prepared by start, tells the CLINT when to generate the next timer interrupt, asks the RISC-V to raise a software interrupt, restores registers, and returns. There’s no C code in the timer interrupt handler.
 
 机器模式下的定时器中断处理程序是 timervec ([kernel/kernelvec.S:95](https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/kernelvec.S#L95))。它在 start 准备的暂存区中保存一些寄存器，告诉 CLINT 何时生成下一个定时器中断，请求 RISC-V 触发一个软件中断，恢复寄存器，然后返回。定时器中断处理程序中没有 C 代码。
+
+
+
+# 第八章 文件系统
+
+文件系统的目的是组织和存储数据。文件系统通常支持用户和应用程序之间的数据共享，以及持久性，以便重启后数据仍然可用。
+
+xv6文件系统提供了类Unix的文件、目录和路径名（请参见第1章），并将其数据存储在virtio磁盘上以实现持久性。文件系统解决了几个挑战：
+• 文件系统需要磁盘上的数据结构来表示命名目录和文件的树，记录保存每个文件内容的块的身份，以及记录磁盘上哪些区域是空闲的。
+• 文件系统必须支持崩溃恢复。也就是说，如果发生崩溃（例如电源故障），文件系统在重启后仍必须正确工作。风险在于崩溃可能会中断一系列更新，并留下不一致的磁盘数据结构（例如，一个块既被文件使用又被标记为空闲）。
+• 不同的进程可能同时操作文件系统，因此文件系统代码必须协调以维护不变量。
+• 访问磁盘比访问内存慢得多，因此文件系统必须维护常用块的内存缓存。
+
+本章的其余部分解释了xv6是如何解决这些挑战的。
