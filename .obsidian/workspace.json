@@ -35,23 +35,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xv6-ob-note/10-system-call.md",
+                "file": "xv6-ob-note/20-lock/00-why-locking.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "cfc392f2d4574c7c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5026054382324,
-    "collapsed": true
+    "width": 265.5026054382324
   },
   "right": {
     "id": "e3a06f4cfa3f02c6",
@@ -126,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "xv6-ob-note/00-readme.md",
+                "file": "xv6-ob-note/20-lock/00-why-locking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "xv6-ob-note/00-readme.md",
+                "file": "xv6-ob-note/20-lock/00-why-locking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "xv6-ob-note/00-readme.md"
+                "file": "xv6-ob-note/20-lock/00-why-locking.md"
               }
             }
           }
@@ -187,24 +177,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e0fe9f2f7c51d8b",
+  "active": "7d580891f99eac02",
   "lastOpenFiles": [
-    "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
-    "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
-    "xv6-ob-note/01-docs/book-riscv-rev3.pdf",
-    "xv6-ob-note/01-docs/riscv-calling.pdf",
-    "xv6-ob-note/10-system-call.md",
-    "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
+    "xv6-ob-note/10-system-call/10-system-call.md",
+    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png",
+    "xv6-ob-note/20-lock/00-why-locking.md",
     "xv6-ob-note/00-readme.md",
+    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png.crdownload",
+    "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
+    "xv6-ob-note/02-riscv/10-riscv-instructions.md",
+    "xv6-ob-note/02-riscv/calling-convention.md",
+    "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
     "README.md",
+    "xv6-ob-note/01-debug.md",
+    "xv6-ob-note/10-system-call/系统调用的过程.canvas",
+    "xv6-ob-note/10-system-call",
+    "xv6-ob-note/20-lock",
+    "xv6-ob-note/01-docs/book-riscv-rev3.pdf",
+    "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
+    "xv6-ob-note/01-docs/riscv-calling.pdf",
     "xv6-ob-note/01-docs/RISCV_Calling_Convention.pdf",
     "xv6-ob-note/01-docs/RISC-V-Reader-Chinese-v2p1.pdf",
     "xv6-ob-note/00-imgs/syscall-handle.png",
     "xv6-ob-note/00-imgs/ls-cc.png",
-    "xv6-ob-note/01-debug.md",
-    "xv6-ob-note/系统调用的过程.canvas",
-    "xv6-ob-note/02-riscv/calling-convention.md",
-    "xv6-ob-note/02-riscv/10-riscv-instructions.md",
     "xv6-ob-note/01-docs/riscv-privileged-20211203.pdf",
     "xv6-ob-note/01-docs/riscv-spec-20191213.pdf",
     "xv6-ob-note/00-imgs/Pasted image 20240406174808.png"
