@@ -11,6 +11,16 @@
             "id": "8e0fe9f2f7c51d8b",
             "type": "leaf",
             "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md"
+              }
+            }
+          },
+          {
+            "id": "221fcb2a5f0407db",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "xv6-ob-note/00-readme.md",
@@ -33,16 +43,23 @@
             "id": "7d580891f99eac02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "xv6-ob-note/20-lock/00-why-locking.md",
-                "mode": "source",
-                "source": false
+                "file": "xv6-ob-note/01-docs/riscv-calling.pdf"
+              }
+            }
+          },
+          {
+            "id": "033238e4406ea564",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "xv6-ob-note/01-docs/riscv-calling.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "xv6-ob-note/20-lock/00-why-locking.md",
+                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "xv6-ob-note/20-lock/00-why-locking.md",
+                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "xv6-ob-note/20-lock/00-why-locking.md"
+                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md"
               }
             }
           }
@@ -177,31 +194,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7d580891f99eac02",
+  "active": "8e0fe9f2f7c51d8b",
   "lastOpenFiles": [
-    "xv6-ob-note/10-system-call/10-system-call.md",
-    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png",
-    "xv6-ob-note/20-lock/00-why-locking.md",
     "xv6-ob-note/00-readme.md",
-    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png.crdownload",
     "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
-    "xv6-ob-note/02-riscv/10-riscv-instructions.md",
-    "xv6-ob-note/02-riscv/calling-convention.md",
-    "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
     "README.md",
-    "xv6-ob-note/01-debug.md",
-    "xv6-ob-note/10-system-call/系统调用的过程.canvas",
-    "xv6-ob-note/10-system-call",
-    "xv6-ob-note/20-lock",
-    "xv6-ob-note/01-docs/book-riscv-rev3.pdf",
-    "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
+    "xv6-ob-note/02-riscv/calling-convention.md",
     "xv6-ob-note/01-docs/riscv-calling.pdf",
-    "xv6-ob-note/01-docs/RISCV_Calling_Convention.pdf",
+    "xv6-ob-note/10-system-call/系统调用的过程.canvas",
+    "xv6-ob-note/10-system-call/10-system-call.md",
     "xv6-ob-note/01-docs/RISC-V-Reader-Chinese-v2p1.pdf",
-    "xv6-ob-note/00-imgs/syscall-handle.png",
-    "xv6-ob-note/00-imgs/ls-cc.png",
     "xv6-ob-note/01-docs/riscv-privileged-20211203.pdf",
     "xv6-ob-note/01-docs/riscv-spec-20191213.pdf",
+    "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
+    "xv6-ob-note/01-docs/RISCV_Calling_Convention.pdf",
+    "Pasted image 20240701232122.png",
+    "xv6-ob-note/01-docs/book-riscv-rev3.pdf",
+    "xv6-ob-note/20-lock/00-why-locking.md",
+    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png",
+    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png.crdownload",
+    "xv6-ob-note/02-riscv/10-riscv-instructions.md",
+    "xv6-ob-note/01-debug.md",
+    "xv6-ob-note/10-system-call",
+    "xv6-ob-note/20-lock",
+    "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
+    "xv6-ob-note/00-imgs/syscall-handle.png",
+    "xv6-ob-note/00-imgs/ls-cc.png",
     "xv6-ob-note/00-imgs/Pasted image 20240406174808.png"
   ]
 }
