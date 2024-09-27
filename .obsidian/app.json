@@ -2,5 +2,9 @@
   "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "strictLineBreaks": true,
-  "showLineNumber": true
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "readableLineLength": false,
+  "attachmentFolderPath": "assets"
 }

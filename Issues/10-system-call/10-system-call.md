@@ -1,5 +1,5 @@
 
-![syscall_procedure](00-imgs/syscall-handle.png)
+![syscall_procedure](assets/syscall-handle.png)
 
 **系统调用**是用户程序请求操作系统服务的接口。
 
@@ -38,7 +38,7 @@ open
 
 首先看看，用户态程序的编译过程，可在Makefile文件中查看。
 
-![](00-imgs/ls-cc.png)
+![](assets/ls-cc.png)
 
 上述编译命令使用 RISC-V 64位架构的 GNU 编译器集合（GCC）来编译一个名为 `ls.c` 的 C 语言源文件，生成一个名为 `ls.o` 的目标文件。下面是对该命令中各个参数的详细解释：
 - `riscv64-linux-gnu-gcc`：这是 RISC-V 64位架构的 GNU 编译器集合 (GCC) 的调用。它用于编译 C/C++ 代码。

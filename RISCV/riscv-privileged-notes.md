@@ -1,5 +1,5 @@
 ---
-annotation-target: 01-docs/riscv-privileged-20211203.pdf
+annotation-target: Docs/riscv-privileged-20211203.pdf
 ---
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md"
+                "file": "RISCV/book-riscv-rev3-notes.md"
               }
             }
           },
@@ -21,9 +21,19 @@
             "id": "221fcb2a5f0407db",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/calling-asm.jpg"
+              }
+            }
+          },
+          {
+            "id": "46b78dc60dae6fb0",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "xv6-ob-note/00-readme.md",
+                "file": "Issues/20-lock/00-why-locking.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,7 +45,7 @@
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "xv6-ob-note/02-riscv/riscv-privileged-notes.md"
+                "file": "RISCV/riscv-privileged-notes.md"
               }
             }
           },
@@ -45,7 +55,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "xv6-ob-note/01-docs/riscv-calling.pdf"
+                "file": "Docs/riscv-calling.pdf"
               }
             }
           },
@@ -55,11 +65,12 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "xv6-ob-note/01-docs/riscv-calling.pdf"
+                "file": "Docs/riscv-calling.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5026054382324
+    "width": 264.5026054382324
   },
   "right": {
     "id": "e3a06f4cfa3f02c6",
@@ -133,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
+                "file": "Issues/20-lock/00-why-locking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
+                "file": "Issues/20-lock/00-why-locking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md"
+                "file": "Issues/20-lock/00-why-locking.md"
               }
             }
           }
@@ -194,32 +205,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e0fe9f2f7c51d8b",
+  "active": "46b78dc60dae6fb0",
   "lastOpenFiles": [
-    "xv6-ob-note/00-readme.md",
-    "xv6-ob-note/02-riscv/book-riscv-rev3-notes.md",
+    "Issues/10-system-call/10-system-call.md",
+    "00-资料汇总.md",
+    "02-代码调试.md",
     "README.md",
-    "xv6-ob-note/02-riscv/calling-convention.md",
-    "xv6-ob-note/01-docs/riscv-calling.pdf",
-    "xv6-ob-note/10-system-call/系统调用的过程.canvas",
-    "xv6-ob-note/10-system-call/10-system-call.md",
-    "xv6-ob-note/01-docs/RISC-V-Reader-Chinese-v2p1.pdf",
-    "xv6-ob-note/01-docs/riscv-privileged-20211203.pdf",
-    "xv6-ob-note/01-docs/riscv-spec-20191213.pdf",
-    "xv6-ob-note/02-riscv/riscv-privileged-notes.md",
-    "xv6-ob-note/01-docs/RISCV_Calling_Convention.pdf",
+    "RISCV/book-riscv-rev3-notes.md",
+    "RISCV/riscv-privileged-notes.md",
+    "Docs/RISC-V-Reader-Chinese-v2p1.pdf",
+    "Issues",
     "Pasted image 20240701232122.png",
-    "xv6-ob-note/01-docs/book-riscv-rev3.pdf",
-    "xv6-ob-note/20-lock/00-why-locking.md",
-    "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png",
+    "RISCV/calling-convention.md",
+    "Docs/riscv-calling.pdf",
+    "assets/stack-frame-asm.jpg",
+    "assets/stack-frame-asm.jpg",
+    "assets/calling-asm.jpg",
+    "assets/stack-frame.jpg",
+    "xv6-ob-note/01-docs/~$mem-layout.xlsx",
+    "Issues/10-system-call/系统调用的过程.canvas",
+    "Docs/riscv-privileged-20211203.pdf",
+    "Docs/riscv-spec-20191213.pdf",
+    "Docs/RISCV_Calling_Convention.pdf",
+    "Docs/book-riscv-rev3.pdf",
+    "Issues/20-lock/00-why-locking.md",
+    "assets/35years-microprocessor-trend-data.png",
     "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png.crdownload",
-    "xv6-ob-note/02-riscv/10-riscv-instructions.md",
-    "xv6-ob-note/01-debug.md",
-    "xv6-ob-note/10-system-call",
-    "xv6-ob-note/20-lock",
-    "xv6-ob-note/01-docs/book-riscv-rev3-cn.md",
-    "xv6-ob-note/00-imgs/syscall-handle.png",
-    "xv6-ob-note/00-imgs/ls-cc.png",
+    "RISCV/10-riscv-instructions.md",
+    "Issues/10-system-call",
+    "Docs/book-riscv-rev3-cn.md",
+    "assets/syscall-handle.png",
+    "assets/ls-cc.png",
     "xv6-ob-note/00-imgs/Pasted image 20240406174808.png"
   ]
 }

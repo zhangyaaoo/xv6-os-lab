@@ -1,5 +1,5 @@
 ---
-annotation-target: 01-docs/book-riscv-rev3.pdf
+annotation-target: Docs/book-riscv-rev3.pdf
 ---
 
 

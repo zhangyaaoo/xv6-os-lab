@@ -9,7 +9,7 @@ Similarly, in the execution of a procedure, the program must follow these six st
 6. Return control to the point of origin, since a procedure can be called from several points in a program.
 
 
-RISCV中，寄存器的使用约定：详见 [riscv-calling](01-docs/riscv-calling.pdf)
+RISCV中，寄存器的使用约定：详见 [riscv-calling](Docs/riscv-calling.pdf)
 
 **t0 - t6：** temporary registers that are not preserved by the callee (called procedure) on a procedure call.
 
@@ -75,11 +75,29 @@ void foo(void)
 
 **所以**，s0 - s11 属于 `Callee Saved Register`。
 
-
-
 # 栈帧的形成
 
+``` c
+int sum(int x, int y, int m)
+{
+	return x + y + m;
+}
 
+int main(void)
+{
+	sum(1, 2, 3);
+	return 0;
+}
+```
+
+源码和汇编的对应：（注意是-O0的优化级别）[Compiler Explorer](https://godbolt.org/)
+
+![](assets/calling-asm.jpg)
+
+![](assets/stack-frame-asm.jpg)
+
+
+![](assets/stack-frame.jpg)
 
 
 

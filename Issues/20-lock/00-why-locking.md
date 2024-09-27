@@ -1,7 +1,7 @@
 
 # 为什么需要锁？
 
-![microprocessor-trend-data](xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png)
+![microprocessor-trend-data](assets/35years-microprocessor-trend-data.png)
 
 这张图有点复杂，X轴是时间，Y轴是单位，Y轴具体意义取决于特定的曲线。这张图中的核心点是，大概从2000年开始：
 - CPU的时钟频率就没有再增加过了（绿线）。
