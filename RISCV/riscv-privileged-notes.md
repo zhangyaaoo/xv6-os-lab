@@ -121,13 +121,13 @@ annotation-target: Docs/riscv-privileged-20211203.pdf
 
 >%%
 >```annotation-json
->{"created":"2024-04-15T23:46:01.102Z","updated":"2024-04-15T23:46:01.102Z","document":{"title":"riscv-privileged-20211203.pdf","link":[{"href":"urn:x-pdf:3bbd00947260c6060c7c578a15048ab9"},{"href":"vault:/xv6-ob-note/01-docs/riscv-privileged-20211203.pdf"}],"documentFingerprint":"3bbd00947260c6060c7c578a15048ab9"},"uri":"vault:/xv6-ob-note/01-docs/riscv-privileged-20211203.pdf","target":[{"source":"vault:/xv6-ob-note/01-docs/riscv-privileged-20211203.pdf","selector":[{"type":"TextPositionSelector","start":27626,"end":27649},{"type":"TextQuoteSelector","exact":"RISC-V privilege levels","prefix":"eserved3 11 Machine MTable 1.1: ","suffix":".exception to be raised. These e"}]}]}
+>{"text":"RISC-V特权级的定义","target":[{"source":"vault:/xv6-ob-note/01-docs/riscv-privileged-20211203.pdf","selector":[{"type":"TextPositionSelector","start":27626,"end":27649},{"type":"TextQuoteSelector","exact":"RISC-V privilege levels","prefix":"eserved3 11 Machine MTable 1.1:","suffix":".exception to be raised. These e"}]}],"created":"2024-04-15T23:46:01.102Z","updated":"2024-04-15T23:46:01.102Z","document":{"title":"riscv-privileged-20211203.pdf","link":[{"href":"urn:x-pdf:3bbd00947260c6060c7c578a15048ab9"},{"href":"vault:/xv6-ob-note/01-docs/riscv-privileged-20211203.pdf"}],"documentFingerprint":"3bbd00947260c6060c7c578a15048ab9"},"uri":"vault:/xv6-ob-note/01-docs/riscv-privileged-20211203.pdf"}
 >```
 >%%
 >*%%PREFIX%%eserved3 11 Machine MTable 1.1:%%HIGHLIGHT%% ==RISC-V privilege levels== %%POSTFIX%%.exception to be raised. These e*
 >%%LINK%%[[#^9tv75xldabn|show annotation]]
 >%%COMMENT%%
->
+>RISC-V特权级的定义
 >%%TAGS%%
 >
 ^9tv75xldabn
@@ -159,3 +159,45 @@ annotation-target: Docs/riscv-privileged-20211203.pdf
 >%%TAGS%%
 >#TRAP
 ^uct0ipnn92
+
+
+>%%
+>```annotation-json
+>{"created":"2024-10-11T12:56:00.791Z","text":"satp寄存器中MODE字段的定义","updated":"2024-10-11T12:56:00.791Z","document":{"title":"riscv-privileged-20211203.pdf","link":[{"href":"urn:x-pdf:3bbd00947260c6060c7c578a15048ab9"},{"href":"vault:/Docs/riscv-privileged-20211203.pdf"}],"documentFingerprint":"3bbd00947260c6060c7c578a15048ab9"},"uri":"vault:/Docs/riscv-privileged-20211203.pdf","target":[{"source":"vault:/Docs/riscv-privileged-20211203.pdf","selector":[{"type":"TextPositionSelector","start":200935,"end":200962},{"type":"TextQuoteSelector","exact":"Encoding of satp MODE field","prefix":"gnated for custom useTable 4.4: ","suffix":".operating systems [2]. Addition"}]}]}
+>```
+>%%
+>*%%PREFIX%%gnated for custom useTable 4.4:%%HIGHLIGHT%% ==Encoding of satp MODE field== %%POSTFIX%%.operating systems [2]. Addition*
+>%%LINK%%[[#^8yllwsgo0e4|show annotation]]
+>%%COMMENT%%
+>satp寄存器中MODE字段的定义
+>%%TAGS%%
+>
+^8yllwsgo0e4
+
+
+>%%
+>```annotation-json
+>{"created":"2024-10-11T13:14:44.263Z","text":"mstatus.TVM 字段可以用来拦截 S-mode 下对 satp 寄存器的读写操作，和拦截 SFENCE.VMA 、SINVAL.VMA指令的执行。","updated":"2024-10-11T13:14:44.263Z","document":{"title":"riscv-privileged-20211203.pdf","link":[{"href":"urn:x-pdf:3bbd00947260c6060c7c578a15048ab9"},{"href":"vault:/Docs/riscv-privileged-20211203.pdf"}],"documentFingerprint":"3bbd00947260c6060c7c578a15048ab9"},"uri":"vault:/Docs/riscv-privileged-20211203.pdf","target":[{"source":"vault:/Docs/riscv-privileged-20211203.pdf","selector":[{"type":"TextPositionSelector","start":74512,"end":74736},{"type":"TextQuoteSelector","exact":"When TVM=1, attempts to read or write the satp CSRor execute an SFENCE.VMA or SINVAL.VMA instruction while executing in S-mode will raise anillegal instruction exception. When TVM=0, these operations are permitted in S-mode.","prefix":"l-memory management operations. ","suffix":" TVM isread-only 0 when S-mode i"}]}]}
+>```
+>%%
+>*%%PREFIX%%l-memory management operations.%%HIGHLIGHT%% ==When TVM=1, attempts to read or write the satp CSRor execute an SFENCE.VMA or SINVAL.VMA instruction while executing in S-mode will raise anillegal instruction exception. When TVM=0, these operations are permitted in S-mode.== %%POSTFIX%%TVM isread-only 0 when S-mode i*
+>%%LINK%%[[#^w0dj6vt2j8a|show annotation]]
+>%%COMMENT%%
+>mstatus.TVM 字段可以用来拦截 S-mode 下对 satp 寄存器的读写操作，和拦截 SFENCE.VMA 、SINVAL.VMA指令的执行。
+>%%TAGS%%
+>#TVM
+^w0dj6vt2j8a
+
+
+>%%
+>```annotation-json
+>{"created":"2024-10-11T15:24:14.079Z","text":"PTE 权限控制位。","updated":"2024-10-11T15:24:14.079Z","document":{"title":"riscv-privileged-20211203.pdf","link":[{"href":"urn:x-pdf:3bbd00947260c6060c7c578a15048ab9"},{"href":"vault:/Docs/riscv-privileged-20211203.pdf"}],"documentFingerprint":"3bbd00947260c6060c7c578a15048ab9"},"uri":"vault:/Docs/riscv-privileged-20211203.pdf","target":[{"source":"vault:/Docs/riscv-privileged-20211203.pdf","selector":[{"type":"TextPositionSelector","start":216765,"end":216796},{"type":"TextQuoteSelector","exact":"encoding of the permission bits","prefix":"e use. Table 4.5 summarizes the ","suffix":".X W R Meaning0 0 0 Pointer to n"}]}]}
+>```
+>%%
+>*%%PREFIX%%e use. Table 4.5 summarizes the%%HIGHLIGHT%% ==encoding of the permission bits== %%POSTFIX%%.X W R Meaning0 0 0 Pointer to n*
+>%%LINK%%[[#^fgegg0dqk7n|show annotation]]
+>%%COMMENT%%
+>PTE 权限控制位。
+>%%TAGS%%
+>#PTE
+^fgegg0dqk7n

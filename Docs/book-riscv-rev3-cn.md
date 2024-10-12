@@ -1,3 +1,12 @@
+
+
+# 页表
+
+
+
+
+
+
 # 第五章 中断和设备驱动
 
 > A driver is the code in an operating system that manages a particular device: it configures the device hardware, tells the device to perform operations, handles the resulting interrupts, and interacts with processes that may be waiting for I/O from the device. Driver code can be tricky because a driver executes concurrently with the device that it manages. In addition, the driver must understand the device’s hardware interface, which can be complex and poorly documented.

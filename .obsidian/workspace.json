@@ -8,39 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e0fe9f2f7c51d8b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "RISCV/book-riscv-rev3-notes.md"
-              }
-            }
-          },
-          {
-            "id": "221fcb2a5f0407db",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/calling-asm.jpg"
-              }
-            }
-          },
-          {
             "id": "46b78dc60dae6fb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Issues/20-lock/00-why-locking.md",
+                "file": "RISCV/calling-convention.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "56261c66fb5f2e31",
+            "id": "83e981a8b863f136",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-代码调试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3e97610a4ec0e47",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -50,22 +42,14 @@
             }
           },
           {
-            "id": "7d580891f99eac02",
+            "id": "47c59a1f037fd5c5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Docs/riscv-calling.pdf"
-              }
-            }
-          },
-          {
-            "id": "033238e4406ea564",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Docs/riscv-calling.pdf"
+                "file": "Docs/book-riscv-rev3-cn.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -144,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Issues/20-lock/00-why-locking.md",
+                "file": "RISCV/riscv-privileged-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Issues/20-lock/00-why-locking.md",
+                "file": "RISCV/riscv-privileged-notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Issues/20-lock/00-why-locking.md"
+                "file": "RISCV/riscv-privileged-notes.md"
               }
             }
           }
@@ -205,35 +189,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "46b78dc60dae6fb0",
+  "active": "b3e97610a4ec0e47",
   "lastOpenFiles": [
-    "Issues/10-system-call/10-system-call.md",
     "00-资料汇总.md",
     "02-代码调试.md",
-    "README.md",
-    "RISCV/book-riscv-rev3-notes.md",
     "RISCV/riscv-privileged-notes.md",
+    "RISCV/book-riscv-rev3-notes.md",
+    "README.md",
+    "Docs/book-riscv-rev3-cn.md",
+    "Docs/riscv-privileged-20211203.pdf",
+    "Docs/book-riscv-rev3.pdf",
+    "RISCV/calling-convention.md",
+    "assets/calling-asm.jpg",
+    "Docs/riscv-calling.pdf",
+    "Issues/10-system-call/10-system-call.md",
+    "Issues/20-lock/00-why-locking.md",
     "Docs/RISC-V-Reader-Chinese-v2p1.pdf",
     "Issues",
     "Pasted image 20240701232122.png",
-    "RISCV/calling-convention.md",
-    "Docs/riscv-calling.pdf",
     "assets/stack-frame-asm.jpg",
     "assets/stack-frame-asm.jpg",
-    "assets/calling-asm.jpg",
     "assets/stack-frame.jpg",
     "xv6-ob-note/01-docs/~$mem-layout.xlsx",
     "Issues/10-system-call/系统调用的过程.canvas",
-    "Docs/riscv-privileged-20211203.pdf",
     "Docs/riscv-spec-20191213.pdf",
     "Docs/RISCV_Calling_Convention.pdf",
-    "Docs/book-riscv-rev3.pdf",
-    "Issues/20-lock/00-why-locking.md",
     "assets/35years-microprocessor-trend-data.png",
     "xv6-ob-note/00-imgs/35years-microprocessor-trend-data.png.crdownload",
     "RISCV/10-riscv-instructions.md",
     "Issues/10-system-call",
-    "Docs/book-riscv-rev3-cn.md",
     "assets/syscall-handle.png",
     "assets/ls-cc.png",
     "xv6-ob-note/00-imgs/Pasted image 20240406174808.png"
